@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            /* list-style-type: none;
+            text-decoration: 0; */
+            color: #666;
+        }
+        table{
+            width: 900px;
+            margin: 0 auto;
+        }
+        tr{
+            height: 30px;
+            line-height: 30px;
+
+        }
+        /* 左侧文字样式 */
+        .left{
+            width: 35%;
+            text-align: right;
+            font-size: 12px;
+            /* color: #666; */
+            padding-right: 15px;
+        }
+        .title{
+            font-size: 12px;
+            text-indent: 20px;
+            height: 25px;
+            line-height: 25px;
+            background-color: rgb(247,247,247);
+            color: #666;
+        }
+        
+        table span{
+            color: red;
+        }
+        .right input{
+            height: 25px;
+            line-height: 25px;
+            border: 1px solid #666;
+            border-radius: 3px;
+            outline: none;
+            width: 250px;
+            padding-left: 10px;
+        }
+
+        .checkbox{
+            width: 15px;
+            height: 11px;
+            line-height: 30px;
+
+        }
+        label{
+            font-size: 12px;
+            line-height: 30px;
+            /* color: #666; */
+            /* height: 25px; */
+        }
+        .btn{
+            background-color: red;
+            outline: none;
+            border: 1px solid red;
+            color: white;
+            width: 250px;
+            height: 30px;
+        }
+        .user{
+            background: url(./img/one4.jpg) no-repeat 236px center;
+        }
+        .suo{
+            background: url(./img/one5.jpg) no-repeat 236px center;
+        }
+    </style>
+</head>
+<body>
+    <table cellpadding="0" cellspacing="0">
+        <!-- 第一部分 -->
+        <tr class="title">
+            <td>账户信息</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="left" ><span>*</span>用户名：</td>
+            <td class="right"><input  class="user" type="text" name="" id=""></td>
+        </tr>
+        <tr >
+            <td class="left"><span>*</span>请设置密码：</td>
+            <td class="right"><input type="password" class="suo"></td>
+        </tr><tr>
+            <td class="left"><span>*</span>请确定密码：</td>
+            <td class="right"><input type="password" class="suo"></td>
+        </tr>
+        <!-- 第二部分 -->
+        <tr class="title">
+            <td>联系人信息</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="left"><span>*</span>联系人姓名：</td>
+            <td class="right"><input  type="text" name="" id=""></td>
+        </tr>
+        <tr >
+            <td class="left"><span>*</span>所在部门：</td>
+            <td class="right"><select >
+                <option >请选择</option>
+                <option >生化部门</option>
+                <option >养猪部门</option>
+                <option >种植部门</option>
+            </select></td>
+        </tr><tr>
+            <td class="left"><span>*</span>固定电话：</td>
+            <td class="right"><input type="text" name="" id=""></td>
+        </tr>
+
+        <!-- 第三部分 -->
+        <tr class="title">
+            <td>公司信息</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="left"><span>*</span>公司名称：</td>
+            <td class="right"><input   type="text" name="" id=""></td>
+        </tr>
+        <tr >
+            <td class="left"><span>*</span>购买类型/用途：</td>
+            <td >
+                <input type="checkbox" class="checkbox" id="it"> <label for="it">IT设备</label>
+                <input type="checkbox" class="checkbox" id="message"> <label for="message">通讯数码</label>
+                <input type="checkbox" class="checkbox" id="office"> <label for="office">办公用品耗材</label>
+                <input type="checkbox" class="checkbox" id="appliances"> <label for="appliances">大家电</label>
+                <input type="checkbox" class="checkbox" id="program"> <label for="program">政府项目</label>
+                <input type="checkbox" class="checkbox" id="gift"> <label for="gift">礼品</label>
+            </td>
+        </tr><tr>
+            <td class="left"></td>
+            <td class="right"><button class="btn">立即注册</button></td>
+        </tr>
+    </table>
+</body>
+</html>

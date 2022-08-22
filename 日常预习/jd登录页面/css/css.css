@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* <!-- logo 欢迎登录 --> */
+.header{
+    width: 70%;
+    margin: 0 auto;
+    height: 60px;
+    padding: 20px 0 20px;
+    overflow: hidden;
+
+}
+.header span{
+    float: left;
+
+}
+.header a{
+    float: left;
+
+}
+.header span{
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 60px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+/* 中间内容区域 */
+.allcontent{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(233,56,84);
+}
+.content{
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    background:url(../image/banner.png) no-repeat;
+    background-size: cover;
+
+}
+/* 登陆表单 */
+.login{
+    width: 440px;
+    height: 350px;
+    float: right;
+    background-color: aliceblue;
+    margin-top: 192px;
+    margin-right: 55px;
+}

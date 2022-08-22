@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 清除默认所有样式 */
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        h2{
+            text-indent: 12px;
+        }
+        form{
+            width: 487px;
+            border: 1px solid #999;
+        }
+        li{
+            height: 45px;
+            line-height: 45px;
+            font-size: 18px;
+            text-indent: 12px;
+
+        }
+        #text{
+            height: 200px;
+        }
+        textarea{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <h2>申请表</h2>
+        <ul>
+            <li>姓名：<input type="text" name="username" ></li>
+            <li>密码：<input type="password" name="password"> </li>
+            <li>照片：<input type="file"></li>
+            <li>感兴趣的职位：<input type="radio" name="web" id="design" value="1"> <label for="design">web设计</label><input type="radio" name="web" id="develop"  value="2"> <label for="develop">web开发</label></li>
+            <li>向往的城市：<select name="city" id="city">
+                <option value="0">向往的城市</option>
+                <option value="1">北京</option>
+                <option value="2">上海</option>
+                <option value="3">澳门</option>
+                <option value="4">东莞</option>
+                <option value="5">香港</option>
+                <option value="6">台湾省</option>
+            </select> </li>
+            <li id="text">协议：<br><textarea name="" id="" cols="30" rows="10" placeholder="求职信息必须真实，准确看。本网站只负责向企业推荐"></textarea></li>
+            <li><input type="checkbox" name="" id="">我认真阅读并接受以上的协议。</li>
+            <li>经验：<select name="experience" id="">
+                <option value="0">请选择</option>
+                <option value="1">1年</option>
+                <option value="2">2年</option>
+                <option value="3">3年</option>
+                <option value="4">4年</option>
+            </select></li>
+            <li> <button disabled>提交</button> <input type="reset" value="重置"></li>
+        </ul>
+    
+    </form>
+</body>
+</html>

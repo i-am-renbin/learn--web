@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            /* text-decoration: none; */
+            font-family: '微软雅黑';
+        }
+        /* 主体 */
+        .content{
+            width: 650px;
+            margin: 0px auto;
+            /* border: 1px solid #999; */
+            background: url(./img/bdlogo.gif) no-repeat 197px -10px;
+
+        }
+        /* 导航栏 */
+        .list{
+            padding-top: 100px;
+            margin: 0 auto;
+            width: 80%;
+            /* padding-bottom: 10px; */
+        }
+        .list li{
+            display: inline-block;
+            
+        }
+        .list>li>a{
+            font-size: 15px;
+            height: 40px;
+            line-height: 40px;
+            margin: 0 5px;
+            color: rgb(0,0,238);
+            /* text-decoration: underline; */
+            letter-spacing: 5px;
+            font-weight: 400;
+
+        }
+        .topleft{
+            padding-left: 30px;;
+        }
+        .homePage{
+            font-weight: 600 !important;
+            color: rgb(17, 17, 17) !important;
+            text-decoration: none !important;
+        }
+        input{
+            margin-left: 75px;
+            width: 455px;
+            height: 30px;
+            outline: none;
+            font-size: 16px;
+            line-height: 30px;
+        }
+        .btn{
+            background-color: rgb(212,208,200);
+            color: black;
+            width: 90px;
+            height: 30px;
+            margin-left: 5px;
+            border: 1px solid rgb(212,208,200);
+        }
+
+        .list2{
+            width:200px ;
+            margin: 10px auto;
+            /* border: 1px solid gray; */
+        }
+        .list2>li{
+            display: inline-block;
+            /* line-height: 40px; */
+            
+        }
+        #line{
+            background-color: black;
+            height: 11px;
+            width: 1px;
+            margin-left: 8px;
+            margin-right: 8px;
+            line-height: 40px;
+            padding: 0;
+        }
+        .list2 a{
+            font-size: 14px;
+            height: 40px;
+            line-height: 40px;
+            color: rgb(0,0,238);
+            /* text-decoration: underline; */
+
+            font-weight: 400;
+        }
+        .uone{
+            width: 230px;
+            margin: 100px auto 0;
+        }
+        /* 尾部 */
+        .uone li{
+            display: inline-block;
+        }
+        .uone a{
+            font-size: 14px;
+            color: rgb(0,0,238);
+            height: 20px;
+            line-height: 20px;
+        }
+        .utwo{
+            width: 400px;
+            margin: 0 auto;
+        }
+        .utwo li{
+            display: inline-block;
+        }
+        .utwo a{
+            font-size: 14px;
+            color: rgb(0,0,238);
+            height: 20px;
+            line-height: 20px;
+        }
+        .p1{
+            text-align: center;
+            font-size: 14px;
+            background: url(./img/ic.jpg) no-repeat 166px 1px;   
+        }
+        .p1 a{
+            color: rgb(0,0,238);
+        }
+        .p2{
+            text-align: center;
+            font-size: 12px;
+            color: rgb(107, 105, 105);
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <ul class="list">
+            <li class="topleft"> <a href="">新闻</a> </li>
+            <li> <a href="" class="homePage" >网页</a> </li>
+            <li> <a href="">贴吧</a> </li>
+            <li> <a href="">知道</a> </li>
+            <li> <a href="">音乐</a> </li>
+            <li> <a href="">图片</a> </li>
+            <li> <a href="">视频</a> </li>
+            <li> <a href="">地图</a> </li>
+         
+        </ul>
+        <input type="text"><button class="btn">百度一下</button>
+        <ul class="list2">
+            <li><a href="">百科</a></li>
+            <li><a href="">文库</a> </li>
+            <li><a href="">hao123</a></li>
+            <li id="line"></li>
+            <li> <a href="">更多>></a></li>
+        </ul>
+        <p class="p1"><a href="">百度地图带你吃喝玩乐，全心全意为人民服务</a></p>
+        <div class="foot">
+            <ul class="uone">
+                <li><a href="#">把百度设置为首页</a></li>
+                <li><a href="#">安装百度浏览器</a></li>
+            </ul>
+            <ul class="utwo">
+                <li><a href="">加入百度推广</a></li>
+                <li id="line"></li>
+                <li><a href="">搜索风云榜</a></li>
+                <li id="line"></li>
+                <li><a href="#">关于百度</a></li>
+                <li id="line"></li>
+                <li><a href="">Auout baidu</a></li>
+            </ul>
+            <p class="p2">©2013 Baidu 使用百度前必读 京ICP证030173号</p>
+        </div>
+    </div>
+</body>
+</html>

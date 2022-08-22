@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+        ul{
+            width: 260px;
+            /* border: 1px solid #999; */
+            padding:0px 5px;
+        }
+        .top{
+            color: white;
+        }
+        li:nth-of-type(1){
+            background-color: rgb(15,124,191);
+            font-size: 20px;
+            height: 40px;
+            line-height: 40px;
+            /* color: aliceblue; */
+            font-weight: 600;
+            text-indent: 20px;
+            
+        }
+        .bgc{
+            background-color: rgb(134, 152, 163);
+        }
+        .two{
+            text-indent: 25px;
+            font-size: 18px;
+            color:rgb(15,124,191);
+            line-height: 30px;
+            height: 30px;
+            margin-bottom: 5px;
+        }
+        .text{
+            font-size: 16px;
+            background-color: rgb(255, 255, 255);
+            /* color: #999; */
+            text-indent: 15px;
+            height: 25px;
+            line-height: 25px;
+        }
+        .text>a{
+            color: #999;
+        }
+        li:nth-of-type(1)>a:hover{
+            text-decoration: underline;
+        }
+        .text a:hover{
+            color: rgb(225, 57, 57);
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li ><a href="" class="top">家用电器</a> </li>
+        <!-- 第一部分 -->
+        <li class="bgc two">大家电</li>
+        <li class="text"> <a href="">平板电视</a>  <a href="">洗衣机</a> <a href="">冰箱</a> </li>
+        <li class="text"><a href="">空调</a> <a href="">烟机/灶具</a>  <a href="">热水器</a></li>
+        <li class="text"><a href="">冰柜/酒柜</a> <a href="">消毒柜</a> <a href="">家庭影院</a> </li>
+<!-- 第二部分 -->
+        <li class="bgc two">生活电器</li>
+        <li class="text"> <a href="">电风扇</a> &nbsp;<a href="">净化器</a>&nbsp;<a href="">吸尘器</a> </li>
+        <li class="text"><a href="">净水设备</a>&nbsp;<a href="">挂烫机</a> <a href="">&nbsp;电话机</a></li>
+        <!-- 第三部分 -->
+        <li class="bgc two">厨房电器</li>
+        <li class="text"><a href="">榨汁机</a> <a href="">电压力锅</a>  <a href="">电饭煲</a></li>
+        <li class="text"><a href=""> 豆浆机</a> <a href="">微波炉</a> <a href="">电磁炉</a> </li>
+        <!-- 第四部分 -->
+        <li class="bgc two">五金家装</li>
+        <li class="text"><a href="">淋浴/水槽</a> <a href="">电动工具</a> <a href="">手动工具</a> </li>
+        <li class="text"><a href="">仪器仪表</a> <a href="">浴霸/排气</a> <a href="">灯具</a></li>
+    </ul>
+</body>
+</html>

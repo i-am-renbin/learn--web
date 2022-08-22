@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            
+        }
+        .box{
+           width: 420px;
+           height: 500px;
+           margin: 0 auto;
+           background: url(./img/bg.jpg) no-repeat -7px 1px;
+           background-size: cover;
+           
+        }
+        span{
+            color: red;
+        }
+        ul{
+            padding-top: 130px;
+        }
+        .box{
+            color: blueviolet;
+            /* 为什么类选择器不能修改 */
+        }
+        ul li{
+            width: 320px;
+            margin: 0 auto;
+            text-indent: 15px;
+            height: 30px;
+            padding-top: 20px;
+            color: white;
+        }
+        li input{
+            margin-left: 10px;
+            width:220px;
+            height: 25px;
+            border-radius: 4px;
+            border: 1px solid #999;
+            outline: none;
+            font-size: 16px;
+            text-indent: 10px;
+            color: black;
+        }
+        .btn a{
+            display: block;
+            width: 187px;
+            height: 50px;
+            margin: 0 auto;
+            background: url(./img/btn.jpg) no-repeat 1px 1px;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li><span>*</span>姓名：<input type="text"></li>
+            <li><span>*</span>邮箱：<input type="text"></li>
+            <li><span>*</span>电话：<input type="text"></li>
+
+            <li class="sex">性别：<select name="" id="">
+                <option >请选择</option>
+                <option >男</option>
+                <option >女</option>
+            </select></li>
+            <li >年龄：<select name="" id="">
+                <option >请选择</option>
+                <option >18</option>
+                <option >19</option>
+            </select></li>
+            <li class="btn"><a href=""></a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JD导航栏</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            text-decoration: none;
+        }
+        .header{
+            width: 100%;
+            background-color: rgb(241,241,241);
+            height: 35px;
+        }
+        .list{
+            width: 80%;
+            margin: 0 auto;
+            height: 35px;
+            line-height: 35px;
+        }
+        /* 导航栏 */
+        ul li{
+            display: inline-block;
+            height: 35px;
+            font-size: 14px;
+            line-height: 35px;
+            margin: 0 5px;
+        }
+        ul li a{
+            font-size: 14px;
+            color: rgb(124, 124, 124); 
+        }
+        .regist{
+            color: red;
+        }
+        .line{
+            background-color: gray;
+            height: 12px;
+            width: 1px;
+        }
+        .list li:hover>a{
+            color:red;
+        }
+        .phone{
+            padding-left: 20px;
+            background: url(./image/tel.png) no-repeat 1px 1px;
+        }
+        .phone:hover{
+            background: url(./image/tel.png) no-repeat 1px -25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <ul class="list">
+            <li><a href="">你好，请登录</a> </li>
+            <li><a href="" class="regist">免费注册</a></li>
+            <li class="line"></li>
+            <li><a href="">我的订单</a></li>
+            <li class="line"></li>
+            <li><a href="#">我的京东</a></li>
+            <li class="line"></li>
+            <li><a href="#">京东会员</a></li>
+            <li class="line"></li>
+            <li><a href="#">企业采购</a></li>
+            <li class="line"></li>
+            <li><a href="#" class="phone">手机京东</a></li>
+            <li class="line"></li>
+            <li><a href="#">关注京东</a></li>
+            <li class="line"></li>
+            <li><a href="#">客服服务</a></li>
+            <li class="line"></li>
+            <li><a href="#">手机京东</a></li>
+
+        </ul>
+    </div>
+</body>
+</html>

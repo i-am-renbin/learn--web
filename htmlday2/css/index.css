@@ -1,0 +1,21 @@
+.box{
+    width: 1000px;
+    border: 1px solid #999;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+h2{
+    text-align: center;
+}
+h3{
+text-align: center;
+color: #999;
+}
+.time{
+    font-size: 12px;
+    text-align: center;
+}
+span{
+    color: red;
+}

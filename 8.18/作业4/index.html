@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        table{
+            margin-top: 20px;
+            width: 500px;
+            /* border: 1px solid red; */
+        }
+        tr{
+            height: 40px;
+            font-size: 14px;
+            line-height: 40px;
+
+        }
+        a{
+            color: blue;
+            font-size: 14px;
+        }
+        .span1{
+            display: inline-block;
+            width: 15px;
+            height: 40px;
+            margin: 0 10px;
+            background: url(./images/man.jpg) no-repeat 1px center;
+        }
+        .span2{
+            display: inline-block;
+            width: 15px;
+            height: 40px;
+            margin: 0 10px;
+            background: url(./images/women.jpg) no-repeat 1px center;
+        }
+        .foot{
+            height: 100px;
+        }
+        .foot li{
+            margin-left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h4>青春不常在，抓紧谈恋爱</h4>
+    <table>
+        <tr>
+            <td>性别：</td>
+            <td class="sex"><input type="radio" name="sex" id="nan"><span class="span1">&nbsp;</span><label for="nan">男</label>
+                <input type="radio" name="sex" id="nv"><span class="span2">&nbsp;</span><label for="nv">女</label>
+            </td>
+        </tr>
+        <tr>
+            <td>生日：</td>
+            <td><select >
+                <option value="">请选择年份</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+                <option value="">2003</option>
+            </select>
+            <select name="" id="">
+                <option value="">请选择月份</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select>
+            <select name="" id="">
+                <option value="">请选择日</option>
+                <option value="">1</option>
+                <option value="">2</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td>所在地区:</td>
+            <td><input type="text" name="" id="" placeholder="北京思密达"></td>
+        </tr>
+        <tr>
+            <td>婚姻状况</td>
+            <td><input type="radio" checked>未婚<input type="radio">已婚<input type="radio">离婚</td>
+        </tr>
+        <tr>
+            <td>学历：</td>
+            <td><input type="text" name="" id="" value="博士后"></td>
+        </tr>
+        <tr>
+            <td>喜欢的类型:</td>
+            <td><input type="checkbox">抚媚的 <input type="checkbox">可爱的 <input type="checkbox">小鲜肉<input type="checkbox">老腊肉
+                <input type="checkbox" checked>都喜欢</td>
+        </tr>
+        <tr>
+            <td>个人介绍：</td>
+            <td><textarea placeholder="个人简历"></textarea></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button>免费注册</button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" name="" id="g"><label for="g">我同意注册条款和会员加入标准</label></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><a href="">我是会员，立即登录</a></td>
+        </tr>
+        <tr class="foot">
+            <td></td>
+            <td >
+                <p>我承诺</p>
+                <ul>	
+                    <li>年满18岁、单身</li>     
+                      <li>抱着严肃的态度</li>   
+                        <li>真诚寻找另一半</li></ul>
+            </td>
+        </tr>
+    </table>
+    
+  
+</body>
+</html>
